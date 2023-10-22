@@ -1,0 +1,150 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.order-details {
+  padding: 20px;
+}
+
+.order-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  gap: 10px;
+}
+
+.back-icon, .orders {
+  font-size: 1.5em;
+}
+
+.order-status, .items, .quantity, .price {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header-item {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.display-text {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+.cart-icon {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.left {
+  width: 40%; /* Adjust as needed */
+  display: flex;
+}
+
+.right {
+  width: 15%; /* Adjust as needed */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-item {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.name, .cart-icon {
+  margin-left: 10px;
+}
+.back-icon {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.orders-page {
+  padding: 20px;
+}
+
+.order-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.order {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.order:hover {
+  background-color: #f9f9f9;
+}
+
+.orders-page {
+  padding: 20px;
+}
+
+.order-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.order {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.order:hover {
+  background-color: #f9f9f9;
+}
+
+.order-details {
+  padding: 20px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.order-item div {
+  flex: 1;
+  text-align: center;
+}
+
+.back-icon {
+  font-size: 1.5em;
+  cursor: pointer;
+}
