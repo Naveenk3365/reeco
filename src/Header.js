@@ -1,9 +1,9 @@
 import React from "react";
 import HeaderItem from "./HeaderItem";
-import { useParams, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 
-const Header = ({}) => {
+const Header = () => {
   const history = useNavigate();
   const handleOrdersClick = () => {
     history("/orders");
